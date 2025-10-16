@@ -127,7 +127,7 @@ buttonAddRandom.addEventListener("click", () => {
   const likeButton = row.querySelector(".btn-like");
   likeButton.addEventListener("click", (event) => {
     const row = event.target.closest("tr");
-    row.classList.toggle("liked");
+    row.classList.toggle("liked"); 
   });
 });
 
