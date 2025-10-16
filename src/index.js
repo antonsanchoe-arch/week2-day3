@@ -129,5 +129,17 @@ buttonAddRandom.addEventListener("click", () => {
     const row = event.target.closest("tr");
     row.classList.toggle("liked"); 
   });
-});
+});       
+
+
+
+
+
+
+
+
+
+
+
+
 
